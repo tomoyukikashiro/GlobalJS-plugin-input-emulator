@@ -1,0 +1,11 @@
+{
+  "name": "master",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "underscore": "*",
+    "GlobalJS": "kashiro/GlobalJS",
+    "html5shiv": "~3.7.0"
+  },
+  "devDependencies": {}
+}

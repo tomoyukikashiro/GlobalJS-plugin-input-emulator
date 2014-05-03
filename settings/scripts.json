@@ -1,0 +1,9 @@
+{
+    "vendor": [
+    ],
+    "app":[
+    ],
+    "test":[
+        "test/spec/**/*.js"
+    ]
+}

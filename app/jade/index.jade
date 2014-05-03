@@ -1,0 +1,24 @@
+doctype html
+html.no-js
+  head
+    meta(charset='utf-8')
+    title generator webapp kashiro
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width')
+    // build:css(.tmp) styles/main.css
+    link(rel='stylesheet', href='styles/main.css')
+    // endbuild
+  body
+    .hero-unit
+      h1 'Allo, 'Allo!
+      p You now have
+      ul
+        li HTML5 Boilerplate
+        li Sass with Compass
+
+    // build:js(app) scripts/vendor.js
+    script(src='bower_components/jquery/jquery.js')
+    // endbuild
+    // build:js({app,.tmp}) scripts/main.js
+    script(src='scripts/main.js')
+    // endbuild
