@@ -26,7 +26,6 @@ module.exports = function (grunt) {
             'clean:server',
             'concurrent:server',
             'autoprefixer',
-            'configureProxies',
             'connect:livereload',
             'watch'
         ]);

@@ -10,9 +10,11 @@ module.exports = {
             singleRun: true,
             browsers: ['PhantomJS'],
             files: [
-                appSettings.dir.app + '/bower_components/query/jquery.min.js',
-                appSettings.dir.app + '/bower_components/underscore/underscore-min.js'
-            ].concat(scriptsSettings.app.concat(scriptsSettings.test)),
+                appSettings.dir.app + '/bower_components/jquery/jquery.js',
+                appSettings.dir.app + '/bower_components/underscore/underscore.js',
+                appSettings.dir.app + '/bower_components/GlobalJS/dist/global.min.js',
+                appSettings.dir.app + '/scripts/view/InputEmulator.js'
+            ].concat(scriptsSettings.test),
             exclude: [
                 appSettings.dir.app + '/scripts/main.js'
             ]

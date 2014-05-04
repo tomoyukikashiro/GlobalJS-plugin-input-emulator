@@ -1,0 +1,4 @@
+// @param {String[]} data scripts url list
+mixin scripts(data)
+    each url in data
+        script(src='#{url}')

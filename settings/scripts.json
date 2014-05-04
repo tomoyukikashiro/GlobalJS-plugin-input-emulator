@@ -1,7 +1,12 @@
 {
     "vendor": [
+        "bower_components/jquery/jquery.js",
+        "bower_components/underscore/underscore.js",
+        "bower_components/GlobalJS/dist/global.min.js"
     ],
     "app":[
+        "scripts/view/InputEmulator.js",
+        "scripts/main.js"
     ],
     "test":[
         "test/spec/**/*.js"
