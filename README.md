@@ -17,8 +17,8 @@ This is plguin for GlobalJS to emulate inserting.
 ## Usage
 
 ```javascript
-	var instance = Global.view.InputEmulator(param);
-    instance.start();
+var instance = Global.view.InputEmulator(param);
+instance.start();
 ```
 
 This class can set those param
