@@ -1,6 +1,6 @@
 # GlobalJS-plugin-input-emulator
 
-[![Build Status](https://travis-ci.org/kashiro/GlobalJS-plugin-input-emulator.svg?branch=master)](https://travis-ci.org/kashiro/GlobalJS-plugin-input-emulator)))]]
+[![Build Status](https://travis-ci.org/kashiro/GlobalJS-plugin-input-emulator.svg?branch=master)](https://travis-ci.org/kashiro/GlobalJS-plugin-input-emulator)
 This is plguin for GlobalJS to emulate inserting.
 
 ## Screenshot
