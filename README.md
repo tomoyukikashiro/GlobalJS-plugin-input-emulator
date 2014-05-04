@@ -1,38 +1,31 @@
-# generator-webapp
+# GlobalJS-plugin-input-emulator
 
-## Outline
+This is plguin for GlobalJS to emulate inserting.
 
-This generator is made based on [generator-webapp](https://github.com/yeoman/generator-webapp)
+## Screenshot
 
-## Additional function
+![screenshot](screenshot.gif "screenshot")
 
-Following functions will be added.
+## Demo
 
-- jade task
-- easymock task
+[demo](http://kashiro.github.io/GlobalJS-plugin-input-emulator/)
 
-## Build
+## Depandency
 
-### command
+* [GlobalJS](https://github.com/kashiro/GlobalJS)
 
-for local
+## Usage
 
-  grunt serve
+```javascript
+	var instance = Global.view.InputEmulator(param);
+    instance.start();
+```
 
-for stg
+This class can set those param
 
-  comming soon
-
-for prod
-
-  comming soon
-
-## Settings
-
-### Script
-
-  settings/scripts.json
-
-### network
-
-  settings/network.json
+* $elm: {Object} $elm jquery object to insert text
+* data : {String[]|Object[]} data data of insert text
+* bsKey: {String} bskey backspace keyword
+* immediateBsKey: {String} immediatebskey backspace keyword to delete text immediately
+* removeAllDelay: {Number} removeAllDelay interval msec to delete all text
+* delay: {Number} delay interval msec to insert each text
