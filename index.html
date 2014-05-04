@@ -1,0 +1,53 @@
+
+<!-- @param {String[]} data scripts url list--><!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>generator webapp kashiro</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="http://fonts.googleapis.com/css?family=Play" rel="stylesheet" type="text/css">
+    <!-- build:css(.tmp) styles/main.css-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild-->
+  </head>
+  <body>
+    <main>
+      <section id="basic">
+        <h1>Basic configuation</h1>
+        <div class="outer">
+          <div class="inner console">
+            <h2 class="title">emulator</h2>
+            <textarea class="container"></textarea>
+          </div>
+          <div class="inner config">
+            <h2 class="title">configuation</h2>
+            <textarea readonly class="container">['Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.']</textarea>
+          </div>
+        </div>
+      </section>
+      <section id="conversion">
+        <h1>Conversion (e.g. japanese kanaji)</h1>
+        <div class="outer">
+          <div class="inner console">
+            <h2 class="title">emulator</h2>
+            <textarea class="container"></textarea>
+          </div>
+          <div class="inner config">
+            <h2 class="title">configuation</h2>
+            <textarea readonly class="container">[{'わがはい':'我輩'},'は',{'ねこ':'猫'},'である。',{'なまえ':'名前'},'はまだ',{'ない':'無い'},'。どこで',{'うまれたか':'生まれたか'},'とんと',{'けんとう':'見当'},'がつかぬ。']</textarea>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- build:js(app) scripts/vendor.js-->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/GlobalJS/dist/global.min.js"></script>
+    <!-- endbuild-->
+    <!-- build:js({app,.tmp}) scripts/main.js-->
+    <script src="scripts/view/InputEmulator.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>
