@@ -36,7 +36,8 @@ module.exports = function (grunt) {
         grunt.task.run([target ? ('serve:' + target) : 'serve']);
     });
 
-    grunt.registerTask('test', ['jshint', 'karma']);
+    grunt.registerTask('test', ['jshint', 'karma:unit']);
+    grunt.registerTask('travis', ['jshint', 'karma:travis']);
 
     grunt.registerTask('stg', [
         'clean:dist',
